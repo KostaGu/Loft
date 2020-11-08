@@ -37,6 +37,11 @@
 
 .form__input::placeholder {
     color: #666;
+    /* border-color: #d3a556; */
+}
+
+.form__input:focus {
+    border: 2px solid #D3A557; 
 }
 
 .form__input:last-child {
@@ -68,13 +73,14 @@
     width: 32%;
     padding-left: 30px;
     padding-right: 15px;
+    margin-right: 96px;
 }
 
 .controls {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .controls__item {
